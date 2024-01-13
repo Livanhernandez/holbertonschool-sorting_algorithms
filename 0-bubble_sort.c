@@ -1,9 +1,10 @@
 #include "sort.h"
 
 /**
- * insertion_sort_list - Sorts a doubly linked list of integers
- * using the Insertion sort algorithm.
- * @list: Double pointer to the head of the doubly linked list
+ * bubble_sort - Sorts an array of integers in ascending order
+ * using the Bubble sort algorithm.
+ * @array: Array to be sorted
+ * @size: Size of the array
  */
 
 void bubble_sort(int *array, size_t size)
